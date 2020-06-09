@@ -2,6 +2,7 @@
 div.col-12:nth-child(1),
 div.col-12:nth-child(2),
 .d-sm-none,
+.details-reset,
 .footer {
   display: none !important;
 }

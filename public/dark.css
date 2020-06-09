@@ -23,3 +23,8 @@ path {
 a {
   color: #579bdf !important;
 }
+
+.pagination * {
+  background-color: #181818 !important;
+  border-color: #343434 !important;
+}
