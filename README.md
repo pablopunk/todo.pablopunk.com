@@ -2,6 +2,8 @@
 
 > See open PRs/issues on your Github repos
 
+![logo](https://digest.im/favicon/readme-logo.png)
+
 ### Examples:
 
 - [digest.im/pablopunk](https://digest.im/pablopunk): Issues/repos for user pablopunk
