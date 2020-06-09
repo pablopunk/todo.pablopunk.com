@@ -40,6 +40,18 @@ module.exports = async (req, res) => {
     .split('\n')
     .filter((l) => !l.includes('favicon'))
     .filter((l) => !l.includes('<title>'))
+    .map((line) => {
+      // replace all links except pagination links
+      if (
+        line.includes('<a') &&
+        !line.includes('aria-label="Page') &&
+        !line.includes('rel="next"')
+      ) {
+        return line.replace('href="', 'href="https://github.com')
+      }
+
+      return line
+    })
     .join('\n')
 
   const html = githubHtml.replace(
