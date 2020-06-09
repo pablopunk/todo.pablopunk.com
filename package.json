@@ -1,0 +1,25 @@
+{
+  "name": "digest.im",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "pablopunk <yo@pablo.pink>",
+  "license": "MIT",
+  "dependencies": {
+    "node-fetch": "^2.6.0"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "pretty-quick --staged"
+    }
+  },
+  "prettier": {
+    "semi": false,
+    "singleQuote": true,
+    "tabWidth": 2
+  },
+  "devDependencies": {
+    "husky": "*",
+    "prettier": "*",
+    "pretty-quick": "*"
+  }
+}

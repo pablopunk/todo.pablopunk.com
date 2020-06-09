@@ -1,0 +1,25 @@
+* {
+  background-color: black;
+  color: #afafaf;
+}
+
+path {
+  color: inherit;
+}
+
+.bg-gray {
+  background-color: #181818 !important;
+}
+
+.muted-link {
+  color: #949494 !important;
+}
+
+.issue-list-item,
+.border-bottom {
+  border-color: #181818 !important;
+}
+
+a {
+  color: #579bdf !important;
+}

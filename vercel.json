@@ -1,0 +1,11 @@
+{
+  "builds": [
+    { "src": "src/index.js", "use": "@now/node" },
+    { "src": "public/*", "use": "@now/static" }
+  ],
+  "routes": [
+    { "src": "/(.*).css", "dest": "/public/$1.css" },
+    { "src": "/(.+)", "dest": "/src/index.js" },
+    { "src": "/", "dest": "/public/index.html" }
+  ]
+}

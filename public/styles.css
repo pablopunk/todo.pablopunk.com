@@ -1,0 +1,31 @@
+.js-header-wrapper,
+div.col-12:nth-child(1),
+div.col-12:nth-child(2),
+.footer {
+  display: none !important;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  align-items: center;
+  justify-items: center;
+  margin-top: 10vh;
+}
+
+main > * {
+  max-width: 600px !important;
+}
+
+.container-lg {
+  margin: 0 !important;
+}
+
+.codesearch-results {
+  width: 100% !important;
+}
+
+.issue-list-item .ml-1 .mb-0 {
+  display: none;
+}
