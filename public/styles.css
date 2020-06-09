@@ -1,6 +1,7 @@
 .js-header-wrapper,
 div.col-12:nth-child(1),
 div.col-12:nth-child(2),
+.d-sm-none,
 .footer {
   display: none !important;
 }
@@ -11,7 +12,7 @@ main {
   width: 100vw;
   align-items: center;
   justify-items: center;
-  margin-top: 10vh;
+  margin-top: 10px;
 }
 
 main > * {
