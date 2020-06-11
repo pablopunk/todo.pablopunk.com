@@ -1,6 +1,6 @@
 const fetch = require('node-fetch')
 
-const metaTags = `
+const meta = `
 <link rel="apple-touch-icon" sizes="57x57" href="/favicon/apple-icon-57x57.png">
 <link rel="apple-touch-icon" sizes="60x60" href="/favicon/apple-icon-60x60.png">
 <link rel="apple-touch-icon" sizes="72x72" href="/favicon/apple-icon-72x72.png">
@@ -22,6 +22,8 @@ const metaTags = `
 <title>digest.im - The to do list for open source developers</title>
 <meta name="description" content="List of tasks to do when you are an open source developer relying on Github issues and pull requests." />
 <meta name="tags" content="tasks,todo,to,do,open,source,github,list,productivity,freelance,remote,pull,request,issues,new,tab,window,minimal" />
+
+<script data-goatcounter="https://digestim.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
 `
 
 module.exports = async (req, res) => {
@@ -56,7 +58,7 @@ module.exports = async (req, res) => {
 
   const html = githubHtml.replace(
     '</head>',
-    `${metaTags}<link media="all" rel="stylesheet" href="/styles.css" />
+    `${meta}<link media="all" rel="stylesheet" href="/styles.css" />
         ${
           req.query.dark !== undefined
             ? '<link media="all" rel="stylesheet" href="/dark.css" />'
