@@ -20,6 +20,10 @@
   "devDependencies": {
     "husky": "*",
     "prettier": "*",
-    "pretty-quick": "*"
+    "pretty-quick": "*",
+    "vercel": "^19.0.1"
+  },
+  "scripts": {
+    "dev": "vercel dev"
   }
 }
