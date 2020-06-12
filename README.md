@@ -9,8 +9,6 @@
 - [digest.im/pablopunk](https://digest.im/pablopunk): Issues/repos for user pablopunk
 - [digest.im/vercel](https://digest.im/vercel): Issues/repos for Vercel organization
 
-#### Dark theme
+#### Light/Dark theme
 
-You can pass the param `?dark` to use it:
-
-- [digest.im/pablopunk?dark](https://digest.im/pablopunk?dark): Issues/repos for user pablopunk
+It will automatically detect your system's theme, either dark or light.

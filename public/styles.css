@@ -1,3 +1,34 @@
+body.dark {
+  background-color: black;
+  color: #ddd;
+}
+
+body.dark path {
+  color: inherit;
+}
+
+body.dark .bg-gray {
+  background-color: #181818 !important;
+}
+
+body.dark .muted-link {
+  color: #949494 !important;
+}
+
+body.dark .issue-list-item,
+body.dark .border-bottom {
+  border-color: #181818 !important;
+}
+
+body.dark a {
+  color: #579bdf !important;
+}
+
+body.dark .pagination * {
+  background-color: #181818 !important;
+  border-color: #343434 !important;
+}
+
 .js-header-wrapper,
 div.col-12:nth-child(1),
 div.col-12:nth-child(2),
