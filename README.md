@@ -6,8 +6,9 @@
 
 ### Examples:
 
-- [digest.im/pablopunk](https://digest.im/pablopunk): Issues/repos for user pablopunk
-- [digest.im/vercel](https://digest.im/vercel): Issues/repos for Vercel organization
+- [digest.im/pablopunk](https://digest.im/pablopunk): Issues/PRs for user pablopunk
+- [digest.im/vercel](https://digest.im/vercel): Issues/PRs for Vercel organization
+- [digest.im/vercel/next.js](https://digest.im/vercel/next.js): Issues/PRs for next.js repo
 
 #### Light/Dark theme
 
