@@ -24,8 +24,6 @@ const head = `
 <title>digest.im - The to do list for open source developers</title>
 <meta name="description" content="List of tasks to do when you are an open source developer relying on Github issues and pull requests." />
 <meta name="tags" content="tasks,todo,to,do,open,source,github,list,productivity,freelance,remote,pull,request,issues,new,tab,window,minimal" />
-
-<script data-goatcounter="https://digestim.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
 `
 
 const body = `
@@ -48,6 +46,7 @@ const body = `
     }
   })();
 </script>
+<script data-goatcounter="https://digestim.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
 `
 
 module.exports = async (req, res) => {
