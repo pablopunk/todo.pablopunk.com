@@ -1,3 +1,7 @@
+body.transparent {
+  background-color: transparent !important;
+}
+
 body.dark {
   background-color: black;
   color: #ddd;

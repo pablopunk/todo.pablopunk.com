@@ -49,6 +49,12 @@ const body = `
 <script data-goatcounter="https://digestim.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
 `
 
+const transparentBody = `
+  <script type="text/javascript">
+    document.body.className = 'transparent'
+  </script>
+`
+
 module.exports = async (req, res) => {
   let [_0, user, repo] = req.url.split('/')
   // if url is /search, then org=search will beignored
@@ -96,7 +102,7 @@ module.exports = async (req, res) => {
     })
     .join('\n')
 
-  const html = githubHtml
+  let html = githubHtml
     .replace(
       '</head>',
       `${head}
@@ -107,6 +113,10 @@ module.exports = async (req, res) => {
       `${body}
     </body>`
     )
+
+  if (params && params.includes('transparent')) {
+    html += transparentBody
+  }
 
   res.end(html)
 }
