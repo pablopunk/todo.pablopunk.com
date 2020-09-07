@@ -2,7 +2,7 @@
   "name": "digest.im",
   "version": "1.0.0",
   "main": "index.js",
-  "author": "pablopunk <yo@pablo.pink>",
+  "author": "pablopunk <me@pablo.im>",
   "license": "MIT",
   "dependencies": {
     "node-fetch": "^2.6.0"
