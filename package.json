@@ -1,8 +1,8 @@
 {
-  "name": "digest.im",
+  "name": "todo.pablopunk.com",
   "version": "1.0.0",
   "main": "index.js",
-  "author": "pablopunk <me@pablo.im>",
+  "author": "pablopunk <pablo@pablopunk.com>",
   "license": "MIT",
   "dependencies": {
     "node-fetch": "^2.6.1"

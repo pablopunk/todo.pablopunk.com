@@ -1,14 +1,14 @@
-# digest.im
+# todo.pablopunk.com
 
 > See open PRs/issues on your Github repos
 
-![logo](https://digest.im/favicon/readme-logo.png)
+![logo](https://todo.pablopunk.com/favicon/readme-logo.png)
 
 ### Examples:
 
-- [digest.im/pablopunk](https://digest.im/pablopunk): Issues/PRs for user pablopunk
-- [digest.im/vercel](https://digest.im/vercel): Issues/PRs for Vercel organization
-- [digest.im/vercel/next.js](https://digest.im/vercel/next.js): Issues/PRs for next.js repo
+- [todo.pablopunk.com/pablopunk](https://todo.pablopunk.com/pablopunk): Issues/PRs for user pablopunk
+- [todo.pablopunk.com/vercel](https://todo.pablopunk.com/vercel): Issues/PRs for Vercel organization
+- [todo.pablopunk.com/vercel/next.js](https://todo.pablopunk.com/vercel/next.js): Issues/PRs for next.js repo
 
 #### Light/Dark theme
 
